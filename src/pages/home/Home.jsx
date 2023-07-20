@@ -11,18 +11,24 @@ function Home() {
         <p>Mes Projets
           <ul>
             <li>
-              <img src={Booki} alt="Site booki" />
-              <a href="https://booki-p2.netlify.app/">Booki</a>
+              <a href="https://booki-p2.netlify.app/">Booki
+                <img className="imgBooki" src={Booki} alt="Site booki" />
+              </a>
+              
             </li>
             
             <li>
-            <img src={Nina} alt="Site nina" />
-            <a href="https://photographe-nina-carducci.netlify.app/">Nina Carducci</a>
+              <a href="https://photographe-nina-carducci.netlify.app/">Nina Carducci
+                <img className="imgNina" src={Nina} alt="Site nina" />
+              </a>
+              
             </li>
             
             <li>
-            <img src={Kasa} alt="Site kasa" />
-            <a href="https://projet-kaza.netlify.app/">Kasa</a>
+              <a href="https://projet-kaza.netlify.app/">Kasa
+               <img className="imgKasa" src={Kasa} alt="Site kasa" />
+              </a>
+              
             </li>
             
           </ul>
