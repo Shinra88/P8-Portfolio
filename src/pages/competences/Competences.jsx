@@ -17,7 +17,7 @@ function Competences() {
         <h2>Competences</h2>
         <h3>Front-end</h3>
 
-        <div className='Front_list'>
+        <div className='List'>
           <ul>
             <li>HTML <img src={LogoHtml} alt="logo html" /></li>
             <li>CSS <img src={LogoCss} alt="logo css" /></li>
@@ -30,11 +30,14 @@ function Competences() {
           </ul>
         </div>
         <h3>Back-end</h3>
-        <ul>
-        <li>Node.js <img src={LogoNodeJs} alt="logo node.js" /></li>
-        <li>MySQL <img src={LogoMySQL} alt="logo MySQL" /></li>
-        <li>Mongo DB <img src={LogoMongoDB} alt="logo Mongo DB" /></li>
-        </ul>
+        
+        <div className='List'>
+          <ul>
+            <li>Node.js <img src={LogoNodeJs} alt="logo node.js" /></li>
+            <li>MySQL <img src={LogoMySQL} alt="logo MySQL" /></li>
+            <li>Mongo DB <img src={LogoMongoDB} alt="logo Mongo DB" /></li>
+          </ul>
+        </div>
       </div>
     </div>
   );
