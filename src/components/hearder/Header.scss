@@ -1,0 +1,20 @@
+.navbare {
+    background-color: black;
+
+    ul {
+        text-align: end;
+        padding: 15px 50px 0px 0px;
+        margin: 0;
+        font-size: 2vw;
+        color: blueviolet;
+
+        a {
+            text-decoration: none;
+            padding-right: 50px; 
+        }
+
+        a:hover{
+            text-shadow: blue 2px 10px 20px;
+        }
+    }
+}

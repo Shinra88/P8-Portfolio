@@ -1,0 +1,28 @@
+.Competences {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+  }
+  
+  .Competences-contener {
+    background-color: #282c34;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+      h2{
+        font-size: 4vw;
+      }
+      
+      h3 {
+        color: blueviolet;
+        font-size: 3vw;
+      }
+  }
+  
+  .Front_list {
+    display: flex;
+    text-align: start;
+  }

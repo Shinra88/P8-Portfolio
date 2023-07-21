@@ -1,0 +1,46 @@
+.Projets {
+    text-align: center;
+    font-family: 'Trebuchet MS';
+  }
+  
+  .Projets_contener{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+      h2{
+  font-size: 4vw;
+      }
+  }
+  
+  .Projets_grid{
+    img {
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    border: 5px solid black;
+    box-shadow: 1px 1px 2px black, 0 0 1em gray;
+    transition: transform .1s;
+    }
+  
+    img:hover{
+      border: 5px solid blueviolet;
+      transform: scale(1.2);
+      }
+  
+    a {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 55px;
+    }
+  
+    h3 {
+      color: blueviolet;
+      font-size: 3vw;
+    }
+  
+  }
