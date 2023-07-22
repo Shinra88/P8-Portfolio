@@ -14,11 +14,18 @@
   color: white;
   padding-bottom: 150px;
     h1{
+      color: blueviolet;
       font-size: 4vw;
     }
 
     h2 {
       color: blueviolet;
-      font-size: 3vw;
+      font-size: 2vw;
+    }
+    li{
+      text-align: start;
+      ::marker{
+        padding-right: 150px;
+      }
     }
 }

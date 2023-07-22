@@ -1,6 +1,5 @@
 import { NavLink } from 'react-router-dom'
 import './Footer.scss';
-import Banniere from '../banniere/Banniere';
 
 function Footer() {
 
