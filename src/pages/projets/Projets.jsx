@@ -1,6 +1,6 @@
-import Kasa from '../../asset/images/kasa.jpg';
-import Nina from '../../asset/images/nina.jpg';
-import Booki from '../../asset/images/booki.jpg';
+import Kasa from '../../asset/images/projets/kasa.webp';
+import Nina from '../../asset/images/projets/nina.webp';
+import Booki from '../../asset/images/projets/booki.webp';
 import Collapse from '../../components/collapse/Collapse';
 import './Projets.scss';
 function Projets() {

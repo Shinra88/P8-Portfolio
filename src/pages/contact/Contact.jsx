@@ -1,7 +1,7 @@
-import Linkedin from '../../asset/images/logo_linkedin.png';
-import LogoMail from '../../asset/images/logo_mail.png';
-import LogoGit from '../../asset/images/logo_github.png';
-import LogoTel from '../../asset/images/logo_tel.png';
+import Linkedin from '../../asset/images/logos/logo_linkedin.png';
+import LogoMail from '../../asset/images/logos/logo_mail.png';
+import LogoGit from '../../asset/images/logos/logo_github.png';
+import LogoTel from '../../asset/images/logos/logo_tel.png';
 import ButtonMailto  from '../../components/mailto/MailTo';
 import './Contact.scss';
 function Contact() {
