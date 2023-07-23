@@ -1,0 +1,61 @@
+.collapse{
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    z-index: 0;
+    width: 60%;
+    
+}
+
+.collapse__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    background: blueviolet;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px black, 0 0 1em gray;
+}
+
+.collapse__title:hover,
+.active .collapse__title{
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    box-shadow: none;
+}
+
+.collapse__icon{
+    position: relative;
+    transition: all .2s;
+}
+
+.active .collapse__icon{
+    transform: rotate(180deg);
+    transition: all .2s;
+}
+
+.collapse__content{
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .2s ease-in; 
+}
+
+.active .collapse__content{
+    visibility: visible;
+    overflow: visible;
+    opacity: 1;
+    height: auto;
+    margin-top: -20px;
+    padding: 28px 20px 20px 20px;
+    transition: all .2s ease-in;
+    color: black;
+    background: #F7F7F7;
+    border-radius: 10px;
+    z-index: 1;
+    font-size: 18px;
+    padding-top: 40px;
+}
