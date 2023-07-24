@@ -8,22 +8,22 @@ function Footer() {
             <nav className='Footer_navbare'>
                 <ul>
                     <NavLink to="/" 
-                    className='Accueil'>
+                    className='Accueil' aria="Accueil Footer">
                     Accueil
                     </NavLink>
 
                     <NavLink to="/Projets" 
-                    className='Projets'>
+                    className='Portfolio' aria="Portfolio Footer">
                     Portfolio
                     </NavLink>
 
                     <NavLink to="/Competences" 
-                    className='Projets'>
+                    className='Competences' aria="Competences Footer">
                     Compétences
                     </NavLink>
                     
                     <NavLink to="/Contact" 
-                    className='Contact'>
+                    className='Contact' aria="Contact Footer">
                     Contact
                     </NavLink>
 

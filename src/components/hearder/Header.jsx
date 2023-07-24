@@ -55,10 +55,10 @@ function closeNav() {
                 <div id="mySidenav" class="sidenav">
                     <button name="close menu" aria-label="close menu" type="button" id="closeBtn" class="close">×</button>
                     <ul>
-                        <li><NavLink to="/" className='Accueil'>Accueil</NavLink></li>
-                        <li><NavLink to="/Projets" className='Projets'>Portfolio</NavLink></li>
-                        <li><NavLink to="/Competences" className='Projets'>Compétences</NavLink></li>
-                        <li><NavLink to="/Contact" className='Contact'>Contact</NavLink></li>
+                        <li><NavLink to="/" aria="Accueil header" className='Accueil'>Accueil</NavLink></li>
+                        <li><NavLink to="/Projets" aria="Portfolio header" className='Portfolio'>Portfolio</NavLink></li>
+                        <li><NavLink to="/Competences" aria="Competences header" className='Competences'>Compétences</NavLink></li>
+                        <li><NavLink to="/Contact" aria="Contact header" className='Contact'>Contact</NavLink></li>
                     </ul>
                 </div>
 
