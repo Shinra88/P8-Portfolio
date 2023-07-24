@@ -32,9 +32,15 @@ button{
       }
 
     @media screen and (max-width: 530px){ 
+    .close{
+      color: #b40000;
+      margin-left: -20px;
+    }
+    
     .desktop_nav {
         display: none;
     }
+
     .sidenav {
         display: block;
         height: 100%;

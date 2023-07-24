@@ -1,11 +1,14 @@
 import { NavLink } from 'react-router-dom'
 import './Header.scss';
 import Banniere from '../banniere/Banniere';
+import { useEffect } from 'react';
 
-function Header() {
+function  Header() {
 
-    var sidenav = document.getElementById("mySidenav");
+    useEffect(()=>{ 
+var sidenav = document.getElementById("mySidenav");
 var openBtn = document.getElementById("openBtn");
+console.log(sidenav)
 var closeBtn = document.getElementById("closeBtn");
 
 openBtn.onclick = openNav;
@@ -13,13 +16,15 @@ closeBtn.onclick = closeNav;
 
 /* Set the width of the side navigation to 250px */
 function openNav() {
-  sidenav.classList.add("active");
+    if (
+  sidenav.classList.add("active"));
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
   sidenav.classList.remove("active");
 }
+});
 
     return (
         <div className="header_contener">
@@ -57,7 +62,7 @@ function closeNav() {
                     </ul>
                 </div>
 
-                <button href="#" id="openBtn">
+                <button id="openBtn">
                 <span class="burger-icon">
                     <span></span>
                     <span></span>
