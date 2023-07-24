@@ -16,7 +16,7 @@ button{
         font-size: 2vw;
         color: blueviolet;
 
-        li {
+        .Li_Accueil, .Li_Portfolio, .Li_Competences, .Li_Contact {
           display: inline-flex;
         }
 
@@ -36,75 +36,76 @@ button{
       }
 
     @media screen and (max-width: 530px){ 
-    .close{
-      color: #b40000;
-      margin-left: -20px;
-    }
-    
-    .desktop_nav {
-        display: none;
-    }
+     
+      .close{
+        color: #b40000;
+        margin-left: -20px;
+      }
+      
+      .desktop_nav {
+          display: none;
+      }
 
-    .sidenav {
-        display: block;
-        height: 100%;
-        width: 125px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        right: -250px;
-        padding-top: 60px;
-        transition: left 0.5s ease;
-      }
-      
-      /* Sidenav menu links */
-      .sidenav a {
-        padding: 8px 0px 8px 0px;
-        text-decoration: none;
-        text-align: center;
-        font-size: 15px;
-        color: blueviolet;
-        display: block;
-        transition: 0.3s;
-      }
-      
-      .sidenav a:hover {
-        color: #111;
-      }
-      
-      .sidenav ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      /* Active class */
-      .sidenav.active {
-        right: 0;
-        background-color: #282c34;
-        border-left: blueviolet 5px solid;
-      }
-      
-      /* Close btn */
-      .sidenav .close {
-        position: absolute;
-        top: 0;
-        left: 25px;
-        font-size: 36px;
-      }
-      
-      /* Icône burger */
-      .burger-icon span {
-        display: block;
-        width: 35px;
-        height: 5px;
-        border-radius: 10px;
-        background-color: blueviolet;
-        margin: 6px 0;
-      }  
-      
-      .burger-icon {
-        margin: 20px 20px 20px 50px;
-      } 
+      .sidenav {
+          display: block;
+          height: 100%;
+          width: 125px;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          right: -250px;
+          padding-top: 60px;
+          transition: left 0.5s ease;
+        }
+        
+        /* Sidenav menu links */
+        .sidenav a {
+          padding: 8px 0px 8px 0px;
+          text-decoration: none;
+          text-align: center;
+          font-size: 15px;
+          color: blueviolet;
+          display: block;
+          transition: 0.3s;
+        }
+        
+        .sidenav a:hover {
+          color: #111;
+        }
+        
+        .sidenav ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+        }
+        
+        /* Active class */
+        .sidenav.active {
+          right: 0;
+          background-color: #282c34;
+          border-left: blueviolet 5px solid;
+        }
+        
+        /* Close btn */
+        .sidenav .close {
+          position: absolute;
+          top: 0;
+          left: 25px;
+          font-size: 36px;
+        }
+        
+        /* Icône burger */
+        .burger-icon span {
+          display: block;
+          width: 35px;
+          height: 5px;
+          border-radius: 10px;
+          background-color: blueviolet;
+          margin: 6px 0;
+        }  
+        
+        .burger-icon {
+          margin: 20px 20px 20px 50px;
+        } 
     }
 }

@@ -30,22 +30,22 @@ function closeNav() {
         <div className="header_contener">
             <nav className='navbare'>
                 <ul className='desktop_nav'>
-                    <li><NavLink to="/" 
+                    <li className='Li_Accueil'><NavLink to="/" 
                     className='Accueil'>
                     Accueil
                     </NavLink></li>
 
-                    <li><NavLink to="/Projets" 
+                    <li className='Li_Portfolio'><NavLink to="/Projets" 
                     className='Projets'>
                     Portfolio
                     </NavLink></li>
 
-                    <li><NavLink to="/Competences" 
+                    <li className='Li_Competences'><NavLink to="/Competences" 
                     className='Projets'>
                     Compétences
                     </NavLink></li>
                     
-                    <li><NavLink to="/Contact" 
+                    <li className='Li_Contact'><NavLink to="/Contact" 
                     className='Contact'>
                     Contact
                     </NavLink></li>
