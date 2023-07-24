@@ -4,10 +4,27 @@ import Banniere from '../banniere/Banniere';
 
 function Header() {
 
+    var sidenav = document.getElementById("mySidenav");
+var openBtn = document.getElementById("openBtn");
+var closeBtn = document.getElementById("closeBtn");
+
+openBtn.onclick = openNav;
+closeBtn.onclick = closeNav;
+
+/* Set the width of the side navigation to 250px */
+function openNav() {
+  sidenav.classList.add("active");
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  sidenav.classList.remove("active");
+}
+
     return (
         <div className="header_contener">
             <nav className='navbare'>
-                <ul>
+                <ul className='desktop_nav'>
                     <NavLink to="/" 
                     className='Accueil'>
                     Accueil
@@ -30,6 +47,23 @@ function Header() {
 
                     
                 </ul>
+                <div id="mySidenav" class="sidenav">
+                    <button id="closeBtn" class="close">×</button>
+                    <ul>
+                        <li><NavLink to="/" className='Accueil'>Accueil</NavLink></li>
+                        <li><NavLink to="/Projets" className='Projets'>Portfolio</NavLink></li>
+                        <li><NavLink to="/Competences" className='Projets'>Compétences</NavLink></li>
+                        <li><NavLink to="/Contact" className='Contact'>Contact</NavLink></li>
+                    </ul>
+                </div>
+
+                <button href="#" id="openBtn">
+                <span class="burger-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                </button>
             </nav>
             <Banniere />
         </div>

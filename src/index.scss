@@ -1,8 +1,12 @@
 body {
-  margin: 0;
   font-family: 'Trebuchet MS';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    margin: 0px;
+    max-width: 1920px;
+    margin-left : auto;
+    margin-right : auto;
+    background-color: black;
 }
 
 code {

@@ -22,7 +22,7 @@ function Competences() {
         
         <div className='List_contener'>
           
-          <div className='List'>
+          <div className='Front_List'>
             
               <img className='html' src={LogoHtml} alt="logo html" />
               <img className='css' src={LogoCss} alt="logo css" />
@@ -84,7 +84,7 @@ function Competences() {
 
           </div>
           
-          <div className='List2'>
+          <div className='Back_List'>
            
               <img className='node' src={LogoNodeJs} alt="logo node.js" />
               <img className='mysl' src={LogoMySQL} alt="logo MySQL" />

@@ -1,3 +1,4 @@
+import CV from "../../asset/cv_colin_kevin.pdf"
 import './Home.scss';
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
         <ul>
           <li>BAC + 2, Développeur Web 2023</li>
           <li>BAC + 4, Concepteur Développeur Nouvelles Technologies 2023 - 2025</li>
+          <a className="download" href={CV} download="cv_colin_kevin.pdf" > Télécharger mon CV </a>
         </ul>
       </div>
     </div>

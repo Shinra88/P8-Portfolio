@@ -5,7 +5,7 @@ function Footer() {
 
     return (
         <div className="Footer_contener">
-            <nav className='navbare'>
+            <nav className='Footer_navbare'>
                 <ul>
                     <NavLink to="/" 
                     className='Accueil'>

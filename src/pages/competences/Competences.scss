@@ -15,6 +15,7 @@
     padding-bottom: 150px;
       h2{
         font-size: 4vw;
+        text-shadow: black 1px 0 10px;
       }
       
       h3 {
@@ -27,16 +28,19 @@
   .List_contener {
     display: flex;
     width: 100%;
+    justify-content: space-around;
+    img{
+      filter:drop-shadow(5px 5px 10px black);
+    }
   }
   
-  .List {
+  .Front_List {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     grid-auto-rows: min-content;
     text-align: start;
     align-items: center;
-    padding-left: 20%;
       .html {
         grid-column: 1 / 3;
         grid-row: 1;
@@ -221,14 +225,13 @@
     }
     }
   }
-  .List2 {
+  .Back_List {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     grid-auto-rows: min-content;
     text-align: start;
     align-items: center;
-    padding-left: 20%;
     .node {
       grid-column: 1 / 3;
       grid-row: 1;
@@ -296,6 +299,23 @@
       }
     }
   }
+span {
+  filter:drop-shadow(5px 5px 10px black);
+}
 
+@media screen and (max-width: 780px){
+  
+  .List_contener {
+    flex-direction: column;
+  }
+
+  .Competences-contener {
+      h3 {
+        display: none;
+      }
+  } 
+  
+  
+}
   
   

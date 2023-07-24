@@ -15,6 +15,7 @@
     padding-bottom: 150px;
       h2{
   font-size: 4vw;
+  text-shadow: black 1px 0 10px;
       }
   }
   
@@ -26,7 +27,7 @@
     margin: 0;
     width: 100%;
     .imgBooki, .imgNina, .imgKasa{
-      width: 500px;
+      max-width: 500px;
       height: 300px;
       border-radius: 25px;
       border: 5px solid black;
@@ -51,4 +52,24 @@
       text-shadow: black 1px 0 10px;
     }
   
+  }
+
+  @media screen and (max-width: 530px){
+    .Projets_grid{
+      .imgBooki, .imgNina, .imgKasa{
+        width: 300px;
+        height: 200px;
+        border-radius: 25px;
+        border: 5px solid black;
+        box-shadow: 1px 1px 2px black, 0 0 1em gray;
+        transition: transform .1s;
+        }
+    
+      .imgBooki:hover, .imgNina:hover, .imgKasa:hover{
+        border: 5px solid blueviolet;
+        transform: scale(1.2);
+        }
+
+    
+    }
   }
