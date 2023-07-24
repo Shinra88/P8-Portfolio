@@ -53,7 +53,7 @@ function closeNav() {
                     
                 </ul>
                 <div id="mySidenav" class="sidenav">
-                    <button name="close_menu" type="button" id="closeBtn" class="close">×</button>
+                    <button name="close menu" aria-label="close menu" type="button" id="closeBtn" class="close">×</button>
                     <ul>
                         <li><NavLink to="/" className='Accueil'>Accueil</NavLink></li>
                         <li><NavLink to="/Projets" className='Projets'>Portfolio</NavLink></li>
@@ -62,7 +62,7 @@ function closeNav() {
                     </ul>
                 </div>
 
-                <button name="menu_burger" type="button" id="openBtn">
+                <button name="menu burger" aria-label="menu burger" type="button" id="openBtn">
                 <span class="burger-icon">
                     <span></span>
                     <span></span>

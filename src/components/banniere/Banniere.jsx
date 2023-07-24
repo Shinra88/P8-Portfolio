@@ -6,7 +6,7 @@ function Banner() {
     return (
             <div className='Banniere_contener'>
                 <div className='Portrait_contener'>
-                    < a href="/">
+                    < a href="/" aria-label="Portrait renvoi vers page home">
                         <img src={Portrait} className='Portrait' alt="Portrait"/>
                     </a >
                     <h2>COLIN Kévin</h2>
