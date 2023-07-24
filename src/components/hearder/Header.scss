@@ -16,6 +16,10 @@ button{
         font-size: 2vw;
         color: blueviolet;
 
+        li {
+          display: inline-flex;
+        }
+
         a {
             text-decoration: none;
             padding-right: 50px;
