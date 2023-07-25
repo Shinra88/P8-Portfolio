@@ -124,7 +124,7 @@ function Competences() {
           
           <div className='Back_List'>
 
-            <h3>Front-end</h3>
+            <h3>Back-end</h3>
            
             <ul>
               <li>
