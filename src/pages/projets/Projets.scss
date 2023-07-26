@@ -1,75 +1,97 @@
 .Projets {
-    text-align: center;
-    font-family: 'Trebuchet MS';
+  text-align: center;
+  font-family: 'Trebuchet MS';
+}
+
+.Projets_contener {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 150px;
+
+  h2 {
+    font-size: 4vw;
+    text-shadow: black 1px 0 10px;
   }
-  
-  .Projets_contener{
-    background-color: #282c34;
-    min-height: 100vh;
+}
+
+.Projets_grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+
+  li {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    padding-bottom: 150px;
-      h2{
-  font-size: 4vw;
-  text-shadow: black 1px 0 10px;
-      }
+    align-items: center;
   }
-  
-  .Projets_grid{
+
+  .imgBooki,
+  .imgNina,
+  .imgKasa,
+  .imgArchiwebos,
+  .imgGrimoire {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    border: 5px solid black;
+    box-shadow: 1px 1px 2px black, 0 0 1em gray;
+    transition: transform .1s;
+  }
+
+  .imgBooki:hover,
+  .imgNina:hover,
+  .imgKasa:hover,
+  .imgArchiwebos:hover,
+  .imgGrimoire:hover {
+    border: 5px solid blueviolet;
+    transform: scale(1.2);
+  }
+
+  a {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    .imgBooki, .imgNina, .imgKasa, .imgArchiwebos, .imgGrimoire{
-      max-width: 500px;
-      height: 300px;
+    padding-bottom: 55px;
+  }
+
+  h3 {
+    color: blueviolet;
+    font-size: 3vw;
+    text-shadow: black 1px 0 10px;
+  }
+
+}
+
+@media screen and (max-width: 530px) {
+  .Projets_grid {
+
+    .imgBooki,
+    .imgNina,
+    .imgKasa {
+      width: 300px;
+      height: 200px;
       border-radius: 25px;
       border: 5px solid black;
       box-shadow: 1px 1px 2px black, 0 0 1em gray;
       transition: transform .1s;
-      }
-  
-    .imgBooki:hover, .imgNina:hover, .imgKasa:hover, .imgArchiwebos:hover, .imgGrimoire:hover{
+    }
+
+    .imgBooki:hover,
+    .imgNina:hover,
+    .imgKasa:hover {
       border: 5px solid blueviolet;
       transform: scale(1.2);
-      }
-  
-    a {
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 55px;
     }
-  
-    h3 {
-      color: blueviolet;
-      font-size: 3vw;
-      text-shadow: black 1px 0 10px;
-    }
-  
-  }
 
-  @media screen and (max-width: 530px){
-    .Projets_grid{
-      .imgBooki, .imgNina, .imgKasa{
-        width: 300px;
-        height: 200px;
-        border-radius: 25px;
-        border: 5px solid black;
-        box-shadow: 1px 1px 2px black, 0 0 1em gray;
-        transition: transform .1s;
-        }
-    
-      .imgBooki:hover, .imgNina:hover, .imgKasa:hover{
-        border: 5px solid blueviolet;
-        transform: scale(1.2);
-        }
 
-    
-    }
   }
+}
