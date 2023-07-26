@@ -26,7 +26,7 @@
     padding: 0;
     margin: 0;
     width: 100%;
-    .imgBooki, .imgNina, .imgKasa{
+    .imgBooki, .imgNina, .imgKasa, .imgArchiwebos, .imgGrimoire{
       max-width: 500px;
       height: 300px;
       border-radius: 25px;
@@ -35,7 +35,7 @@
       transition: transform .1s;
       }
   
-    .imgBooki:hover, .imgNina:hover, .imgKasa:hover{
+    .imgBooki:hover, .imgNina:hover, .imgKasa:hover, .imgArchiwebos:hover, .imgGrimoire:hover{
       border: 5px solid blueviolet;
       transform: scale(1.2);
       }

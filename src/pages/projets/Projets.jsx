@@ -19,7 +19,7 @@ function Projets() {
             
               <h3>ArchiWebos</h3>
               <a href="https://github.com/Shinra88/ArchiWebos">
-               <img className="imgArchiWebos" src={ArchiWebos} alt="Site archiWebos" />
+               <img className="imgArchiwebos" src={ArchiWebos} alt="Site archiwebos" />
               </a>
               <Collapse title="Description du projet ArchiWebos" content="Manipuler les éléments du DOM avec JavaScript, Récupérer les données utilisateurs dans le JavaScript via des formulaires, Gérer les événements utilisateurs avec JavaScript"/>
           
