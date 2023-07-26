@@ -1,321 +1,215 @@
 .Competences {
-    text-align: center;
-    font-family: 'Trebuchet MS';
+  text-align: center;
+  font-family: 'Trebuchet MS';
+}
+
+.Competences-contener {
+  background-color: #282c34;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 150px;
+
+  h2 {
+    font-size: 4vw;
+    text-shadow: black 1px 0 10px;
   }
-  
-  .Competences-contener {
-    background-color: #282c34;
-    min-height: 40vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-    padding-bottom: 150px;
-      h2{
-        font-size: 4vw;
-        text-shadow: black 1px 0 10px;
-      }
+
+  h3 {
+    color: blueviolet;
+    font-size: 3vw;
+    text-shadow: black 1px 0 10px;
+  }
+}
+
+.List_contener {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+  img {
+    filter: drop-shadow(5px 5px 10px black);
+  }
+}
+
+.Front_List {
+
+  ul {
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       
-      h3 {
-        color: blueviolet;
-        font-size: 3vw;
-        text-shadow: black 1px 0 10px;
-      }
+    }
   }
 
-  .List_contener {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    img{
-      filter:drop-shadow(5px 5px 10px black);
-    }
-  }
-  
-  .Front_List {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: min-content;
-    text-align: start;
-    align-items: center;
-      .html {
-        grid-column: 1 / 3;
-        grid-row: 1;
-      }
-      .htmltxt {
-        grid-column: 2 / 3;
-        grid-row: 1;
-      }
-      .htmlstars{
-        grid-column: 3 / 3;
-        grid-row: 1;
-        padding-left: 20px;
-        .htmlstars1{
-          color: goldenrod;
-      }
-      .htmlstars2{
-        color: goldenrod;
-    }
-    .htmlstars3{
-      color: goldenrod;
-  }
-    }
-
-    .css {
-      grid-column: 1 / 3;
-      grid-row: 2;
-    }
-    .csstxt {
-      grid-column: 2 / 3;
-      grid-row: 2;
-    }
-    .cssstars{
-      grid-column: 3 / 3;
-      grid-row: 2;
-      padding-left: 20px;
-      .cssstars1{
-        color: goldenrod;
-     }
-     .cssstars2{
-      color: goldenrod;
-   }
-   .cssstars3{
+  .htmlstars1 {
     color: goldenrod;
   }
+
+  .htmlstars2 {
+    color: goldenrod;
   }
 
-    .sass {
-      grid-column: 1 / 3;
-     grid-row: 3;
-    }
-    .sasstxt {
-      grid-column: 2 / 3;
-     grid-row: 3;
-    }
-    .sassstars{
-      grid-column: 3 / 3;
-      grid-row: 3;
-      padding-left: 20px;
-      .sassstars1{
-        color: goldenrod;
-     }
-     .sassstars2{
+  .htmlstars3 {
+    color: goldenrod;
+  }
+
+    .cssstars1 {
       color: goldenrod;
     }
-    .sassstars3{
-    color: silver;
-    }
-    }
 
-    .js {
-      grid-column: 1 / 3;
-     grid-row: 4;
-    }
-    .jstxt {
-      grid-column: 2 / 3;
-     grid-row: 4;
-    }
-    .jsstars{
-      grid-column: 3 / 3;
-      grid-row: 4;
-      padding-left: 20px;
-      .jsstars1{
-        color: goldenrod;
-     }
-     .jsstars2{
+    .cssstars2 {
       color: goldenrod;
     }
-    .jsstars3{
-    color: silver;
-    }
-    }
 
-    .react {
-      grid-column: 1 / 3;
-     grid-row: 5;
-    }
-    .reacttxt {
-      grid-column: 2 / 3;
-     grid-row: 5;
-    }
-    .reactstars{
-      grid-column: 3 / 3;
-      grid-row: 5;
-      padding-left: 20px;
-      .reactstars1{
-        color: goldenrod;
-     }
-     .reactstars2{
+    .cssstars3 {
       color: goldenrod;
     }
-    .reactstars3{
-    color: silver;
-    }
-    }
 
-    .angular {
-      grid-column: 1 / 3;
-     grid-row: 6;
-    }
-    .angulartxt {
-      grid-column: 2 / 3;
-     grid-row: 6;
-    }
-    .angularstars{
-      grid-column: 3 / 3;
-      grid-row: 6;
-      padding-left: 20px;
-      .angularstars1{
-        color: goldenrod;
-     }
-     .angularstars2{
+  
+    .sassstars1 {
       color: goldenrod;
     }
-    .angularstars3{
-    color: silver;
-    }
-    }
 
-    .ts {
-      grid-column: 1 / 3;
-     grid-row: 7;
-    }
-    .tstxt {
-      grid-column: 2 / 3;
-     grid-row: 7;
-    }
-    .tsstars{
-      grid-column: 3 / 3;
-      grid-row: 7;
-      padding-left: 20px;
-      .tsstars1{
-        color: goldenrod;
-     }
-     .tsstars2{
+    .sassstars2 {
       color: goldenrod;
     }
-    .tsstars3{
-    color: silver;
-    }
-    }
 
-    .jquery {
-      grid-column: 1 / 3;
-     grid-row: 8;
-    }
-    .jquerytxt {
-      grid-column: 2 / 3;
-     grid-row: 8;
-    }
-    .jquerystars{
-      grid-column: 3 / 3;
-      grid-row: 8;
-      padding-left: 20px;
-      .jquerystars1{
-        color: goldenrod;
-     }
-     .jquerystars2{
+    .sassstars3 {
       color: silver;
     }
-    .jquerystars3{
-    color: silver;
-    }
-    }
-  }
-  .Back_List {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    grid-auto-rows: min-content;
-    text-align: start;
-    align-items: center;
-    .node {
-      grid-column: 1 / 3;
-      grid-row: 1;
-    }
-    .mysql {
-      grid-column: 1 / 3;
-      grid-row: 2;
-    }
-    .mongodb {
-      grid-column: 1 / 3;
-     grid-row: 3;
-    }
-    .nodetxt{
-      grid-column: 2 / 3;
-     grid-row: 1;
-    }
-    .mysqltxt{
-      grid-column: 2 / 3;
-      grid-row: 2;
-    }
-    .mongodbtxt{
-      grid-column: 2 / 3;
-      grid-row: 3;
-    }
-    .nodestars{
-      grid-column: 3 / 3;
-      grid-row: 1;
+
+    .jsstars1 {
       padding-left: 20px;
-      .nodestars1{
-        color: goldenrod;
-     }
-     .nodestars2{
       color: goldenrod;
-   }
-   .nodestars3{
-    color: silver;
- }
     }
-    .mysqlstars{
-      grid-column: 3 / 3;
-      grid-row: 2;
-      padding-left: 20px;
-      .mysqlstars1{
-        color: goldenrod;
-      }
-      .mysqlstars2{
-        color: silver;
-      }
-      .mysqlstars3{
-        color: silver;
-      }
+
+    .jsstars2 {
+      color: goldenrod;
     }
-    .mongodbstars{
-      grid-column: 3 / 3;
-      grid-row: 3;
-      padding-left: 20px;
-      .mongodbstars1{
-        color: goldenrod;
+
+    .jsstars3 {
+      color: silver;
+    }
+
+    .reactstars1 {
+      color: goldenrod;
+    }
+
+    .reactstars2 {
+      color: goldenrod;
+    }
+
+    .reactstars3 {
+      color: silver;
+    }
+
+    .angularstars1 {
+      color: goldenrod;
+    }
+
+    .angularstars2 {
+      color: goldenrod;
+    }
+
+    .angularstars3 {
+      color: silver;
+    }
+
+    .tsstars1 {
+      color: goldenrod;
+    }
+
+    .tsstars2 {
+      color: goldenrod;
+    }
+
+    .tsstars3 {
+      color: silver;
+    }
+
+    .jquerystars1 {
+      color: goldenrod;
+    }
+
+    .jquerystars2 {
+      color: silver;
+    }
+
+    .jquerystars3 {
+      color: silver;
+    }
+
+    .js{
+        padding-right: 20px;
       }
-      .mongodbstars2{
-        color: goldenrod;
-      }
-      .mongodbstars3{
-        color: silver;
-      }
+  
+  
+  }
+
+.Back_List {
+  ul {
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   }
+
+    .nodestars1 {
+      color: goldenrod;
+    }
+
+    .nodestars2 {
+      color: goldenrod;
+    }
+
+    .nodestars3 {
+      color: silver;
+    }
+
+    .mysqlstars1 {
+      color: goldenrod;
+    }
+
+    .mysqlstars2 {
+      color: silver;
+    }
+
+    .mysqlstars3 {
+      color: silver;
+    }
+
+    .mongodbstars1 {
+      padding-left: 20px;
+      color: goldenrod;
+    }
+
+    .mongodbstars2 {
+      color: goldenrod;
+    }
+
+    .mongodbstars3 {
+      color: silver;
+    }
+    .mongodb{
+      padding-right: 20px;
+    }
+  }
+
 span {
-  filter:drop-shadow(5px 5px 10px black);
+  filter: drop-shadow(5px 5px 10px black);
 }
 
-@media screen and (max-width: 780px){
-  
+@media screen and (max-width: 780px) {
+
   .List_contener {
     flex-direction: column;
+    width: 80%;
   }
-
-  .Competences-contener {
-      h3 {
-        display: none;
-      }
-  } 
-  
-  
 }
-  
-  

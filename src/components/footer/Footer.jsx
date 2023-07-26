@@ -7,25 +7,25 @@ function Footer() {
         <div className="Footer_contener">
             <nav className='Footer_navbare'>
                 <ul>
-                    <NavLink to="/" 
-                    className='Accueil' aria="Accueil Footer">
+                    <li><NavLink to="/" 
+                    className='Accueil'>
                     Accueil
-                    </NavLink>
+                    </NavLink></li>
 
-                    <NavLink to="/Projets" 
-                    className='Portfolio' aria="Portfolio Footer">
+                    <li><NavLink to="/Projets" 
+                    className='Projets'>
                     Portfolio
-                    </NavLink>
+                    </NavLink></li>
 
-                    <NavLink to="/Competences" 
-                    className='Competences' aria="Competences Footer">
+                    <li><NavLink to="/Competences" 
+                    className='Projets'>
                     Compétences
-                    </NavLink>
+                    </NavLink></li>
                     
-                    <NavLink to="/Contact" 
-                    className='Contact' aria="Contact Footer">
+                    <li><NavLink to="/Contact" 
+                    className='Contact'>
                     Contact
-                    </NavLink>
+                    </NavLink></li>
 
                     
                 </ul>

@@ -18,94 +18,150 @@ function Competences() {
       <div className="Competences-contener">
         <h2>Compétences</h2>
         
-        <h3><pre>Front-end                 Back-end</pre></h3>
-        
         <div className='List_contener'>
           
           <div className='Front_List'>
-            
-              <img className='html' src={LogoHtml} alt="logo html" />
-              <img className='css' src={LogoCss} alt="logo css" />
-              <img className='sass' src={LogoSass} alt="logo sass" />
-              <img className='js'src={LogoJs} alt="logo js" />
-              <img className='react'src={LogoReactJs} alt="logo react.js" />
-              <img className='angular'src={LogoAngular} alt="logo angular" />
-              <img className='ts'src={LogoTypeScript} alt="logo TypeScript" />
-              <img className='jquery'src={LogoJquery} alt="logo jquery" />
 
-            <p className='htmltxt'>HTML</p>
-            <p className='csstxt'>CSS</p>
-            <p className='sasstxt'>SASS</p>
-            <p className='jstxt'>Java Script</p>
-            <p className='reacttxt'>React.js</p>
-            <p className='angulartxt'>Angular</p>
-            <p className='tstxt'>TypeScript</p> 
-            <p className='jquerytxt'>jQuery</p>
+            <h3>Front-end</h3>
 
-            <span className='htmlstars'>
-              <FontAwesomeIcon className="htmlstars1" icon={faStar} />
-              <FontAwesomeIcon className="htmlstars2" icon={faStar} />
-              <FontAwesomeIcon className="htmlstars3" icon={faStar} /></span>
+            <ul>
+              <li>
+                <img src={LogoHtml} alt="logo html" />
+                <p>HTML</p>
+                <span>
+                  <FontAwesomeIcon className="htmlstars1" icon={faStar} />
+                  <FontAwesomeIcon className="htmlstars2" icon={faStar} />
+                  <FontAwesomeIcon className="htmlstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
 
-              <span className='cssstars'>
-              <FontAwesomeIcon className="cssstars1" icon={faStar} />
-              <FontAwesomeIcon className="cssstars2" icon={faStar} />
-              <FontAwesomeIcon className="cssstars3" icon={faStar} /></span>
+            <ul>
+              <li>
+              <img src={LogoCss} alt="logo css" />
+                <p>CSS</p>
+                <span>
+                  <FontAwesomeIcon className="cssstars1" icon={faStar} />
+                  <FontAwesomeIcon className="cssstars2" icon={faStar} />
+                  <FontAwesomeIcon className="cssstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
 
-              <span className='sassstars'>
-              <FontAwesomeIcon className="sassstars1" icon={faStar} />
-              <FontAwesomeIcon className="sassstars2" icon={faStar} />
-              <FontAwesomeIcon className="sassstars3" icon={faStar} /></span>
+            <ul>
+              <li>
+                <img src={LogoSass} alt="logo sass" />
+                <p>SASS</p>
+                <span>
+                  <FontAwesomeIcon className="sassstars1" icon={faStar} />
+                  <FontAwesomeIcon className="sassstars2" icon={faStar} />
+                  <FontAwesomeIcon className="sassstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
 
-              <span className='jsstars'>
-              <FontAwesomeIcon className="jsstars1" icon={faStar} />
-              <FontAwesomeIcon className="jsstars2" icon={faStar} />
-              <FontAwesomeIcon className="jsstars3" icon={faStar} /></span>
+            <ul>
+              <li>
+                <img className='js' src={LogoJs} alt="logo js" />
+                <p>Java Script</p>
+                <span>
+                  <FontAwesomeIcon className="jsstars1" icon={faStar} />
+                  <FontAwesomeIcon className="jsstars2" icon={faStar} />
+                  <FontAwesomeIcon className="jsstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
 
-              <span className='reactstars'>
-              <FontAwesomeIcon className="reactstars1" icon={faStar} />
-              <FontAwesomeIcon className="reactstars2" icon={faStar} />
-              <FontAwesomeIcon className="reactstars3" icon={faStar} /></span>
+            <ul>
+              <li>
+                <img src={LogoReactJs} alt="logo react" />
+                <p>React</p>
+                <span>
+                  <FontAwesomeIcon className="reactstars1" icon={faStar} />
+                  <FontAwesomeIcon className="reactstars2" icon={faStar} />
+                  <FontAwesomeIcon className="reactstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
 
-              <span className='angularstars'>
-              <FontAwesomeIcon className="angularstars1" icon={faStar} />
-              <FontAwesomeIcon className="angularstars2" icon={faStar} />
-              <FontAwesomeIcon className="angularstars3" icon={faStar} /></span>
-              
-              <span className='tsstars'>
-              <FontAwesomeIcon className="tsstars1" icon={faStar} />
-              <FontAwesomeIcon className="tsstars2" icon={faStar} />
-              <FontAwesomeIcon className="tsstars3" icon={faStar} /></span>
+            <ul>
+              <li>
+                <img src={LogoAngular} alt="logo angular" />
+                <p>Angular</p>
+                <span>
+                  <FontAwesomeIcon className="angularstars1" icon={faStar} />
+                  <FontAwesomeIcon className="angularstars2" icon={faStar} />
+                  <FontAwesomeIcon className="angularstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
 
-              <span className='jquerystars'>
-              <FontAwesomeIcon className="jquerystars1" icon={faStar} />
-              <FontAwesomeIcon className="jquerystars2" icon={faStar} />
-              <FontAwesomeIcon className="jquerystars3" icon={faStar} /></span>
+            <ul>
+              <li>
+                <img src={LogoTypeScript} alt="logo ts" />
+                <p>TypeScript</p>
+                <span>
+                  <FontAwesomeIcon className="tsstars1" icon={faStar} />
+                  <FontAwesomeIcon className="tsstars2" icon={faStar} />
+                  <FontAwesomeIcon className="tsstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <img src={LogoJquery} alt="logo jquery" />
+                <p>Jquery</p>
+                <span>
+                  <FontAwesomeIcon className="jquerystars1" icon={faStar} />
+                  <FontAwesomeIcon className="jquerystars2" icon={faStar} />
+                  <FontAwesomeIcon className="jquerystars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
 
           </div>
           
           <div className='Back_List'>
+
+            <h3>Back-end</h3>
            
-              <img className='node' src={LogoNodeJs} alt="logo node.js" />
-              <img className='mysl' src={LogoMySQL} alt="logo MySQL" />
-              <img className='mongodb' src={LogoMongoDB} alt="logo Mongo DB" />
-             
-              <p className='nodetxt'>Node.js</p>
-              <p className='mysqltxt'>MySQL</p>
-              <p className='mongodbtxt'>Mongo DB</p>
-            
-            <span className='nodestars'>
-              <FontAwesomeIcon className="nodestars1" icon={faStar} />
-              <FontAwesomeIcon className="nodestars2" icon={faStar} />
-              <FontAwesomeIcon className="nodestars3" icon={faStar} /></span>
-            <span className='mysqlstars'>
-              <FontAwesomeIcon className='mysqlstars1' icon={faStar} />
-              <FontAwesomeIcon className='mysqlstars2' icon={faStar} />
-              <FontAwesomeIcon className='mysqlstars3' icon={faStar} /></span>
-            <span className='mongodbstars'>
-              <FontAwesomeIcon className='mongodbstars1' icon={faStar} />
-              <FontAwesomeIcon className='mongodbstars2' icon={faStar} />
-              <FontAwesomeIcon className='mongodbstars3' icon={faStar} /></span>
+            <ul>
+              <li>
+                <img src={LogoNodeJs} alt="logo node" />
+                <p>Node.Js</p>
+                <span>
+                  <FontAwesomeIcon className="nodestars1" icon={faStar} />
+                  <FontAwesomeIcon className="nodestars2" icon={faStar} />
+                  <FontAwesomeIcon className="nodestars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <img src={LogoMySQL} alt="logo mysql" />
+                <p>MySQL</p>
+                <span>
+                  <FontAwesomeIcon className="mysqlstars1" icon={faStar} />
+                  <FontAwesomeIcon className="mysqlstars2" icon={faStar} />
+                  <FontAwesomeIcon className="mysqlstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <img className='mongodb' src={LogoMongoDB} alt="logo mongodb" />
+                <p>Mongo Db</p>
+                <span>
+                  <FontAwesomeIcon className="mongodbstars1" icon={faStar} />
+                  <FontAwesomeIcon className="mongodbstars2" icon={faStar} />
+                  <FontAwesomeIcon className="mongodbstars3" icon={faStar} />
+                </span>
+              </li>
+            </ul>
+
           </div>
         </div>
       </div>
