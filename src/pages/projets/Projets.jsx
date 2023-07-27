@@ -16,35 +16,34 @@ function Projets() {
               <a href="https://booki-p2.netlify.app/">
               <img className="imgBooki" src={Booki} alt="Site booki" />
               </a>
-              <Collapse title="Description du projet Booki" content="Implémenter une interface responsive avec HTML et CSS, Versionner son projet avec Git et Github, Intégrer du contenu conformément à une maquette avec HTML et CSS,Installer un environnement de développement front-end"/>
+              <Collapse title="Description du projet Booki" content={<ul>{<li>- Implémenter une interface responsive avec HTML et CSS.</li>}{<li>- Versionner son projet avec Git et Github.</li>}{<li>- Intégrer du contenu conformément à une maquette avec HTML et CSS.</li>}{<li>- Installer un environnement de développement front-end.</li>}</ul>}/>
             </li>
             <li>
               <h3>ArchiWebos</h3>
               <a href="https://github.com/Shinra88/ArchiWebos">
               <img className="imgArchiwebos" src={ArchiWebos} alt="Site archiwebos" />
               </a>
-              <Collapse title="Description du projet ArchiWebos" content="Manipuler les éléments du DOM avec JavaScript, Récupérer les données utilisateurs dans le JavaScript via des formulaires, Gérer les événements utilisateurs avec JavaScript"/>
+              <Collapse title="Description du projet ArchiWebos" content={<ul>{<li>- Manipuler les éléments du DOM avec JavaScript.</li>}{<li>- Récupérer les données utilisateurs dans le JavaScript via des formulaires.</li>}{<li>- Gérer les événements utilisateurs avec JavaScript.</li>}</ul>}/>
             </li>
             <li>
                 <h3>Nina Carducci</h3>
                 <a href="https://photographe-nina-carducci.netlify.app/">
                 <img className="imgNina" src={Nina} alt="Site nina" />
                 </a>
-              <Collapse title="Description du projet Nina Carducci" content="Optimiser les performances d’un site web, Débugger un site web grâce aux Chrome DevTools, Rédiger un cahier de recette pour tester un site"/>
-            </li>
+              <Collapse title="Description du projet Nina Carducci" content={<ul>{<li>- Optimiser les performances d’un site web.</li>}{<li>- Débugger un site web grâce aux Chrome DevTools.</li>}{<li>- Rédiger un cahier de recette pour tester un site.</li>}</ul>}/>            </li>
             <li>
               <h3>Kasa</h3>
               <a href="https://projet-kaza.netlify.app">
               <img className="imgKasa" src={Kasa} alt="Site kasa" />
               </a>
-              <Collapse title="Description du projet Kasa" content="Configurer la navigation entre les pages de l'application avec React Router, Développer une interface web avec Sass, Initialiser une application avec Create React App, Développer des éléments de l'interface d'un site web grâce à des composants React, Mettre en œuvre des animations CSS"/>
+              <Collapse title="Description du projet Kasa" content={<ul>{<li>- Configurer la navigation entre les pages de l'application avec React Router.</li>}{<li>- Développer une interface web avec Sass.</li>}{<li>- Initialiser une application avec Create React App.</li>}{<li>- Développer des éléments de l'interface d'un site web grâce à des composants React.</li>}{<li>- Mettre en œuvre des animations CSS.</li>}</ul>}/>
             </li>
             <li>
               <h3>Mon vieux grimoire</h3>
               <a href="https://github.com/Shinra88/Projet7-Back-end">
               <img className="imgGrimoire" src={Grimoire} alt="Site mon vieux grimoire" />
               </a>
-              <Collapse title="Description du projet Mon vieux grimoire" content="Configurer la navigation entre les pages de l'application avec React Router, Développer une interface web avec Sass, Initialiser une application avec Create React App, Développer des éléments de l'interface d'un site web grâce à des composants React, Mettre en œuvre des animations CSS"/>
+              <Collapse title="Description du projet Mon vieux grimoire" content={<ul>{<li>- Implémenter un modèle logique de données conformément à la réglementation.</li>}{<li>- Stocker des données de manière sécurisée.</li>}{<li>- Mettre en œuvre des opérations CRUD de manière sécurisée.</li>}</ul>}/>
             </li>
           </ul>
       </div>

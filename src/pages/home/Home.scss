@@ -13,43 +13,82 @@
   font-size: calc(10px + 2vmin);
   color: white;
   padding-bottom: 150px;
-    h1{
-      color: blueviolet;
-      text-shadow: black 1px 0 10px;
-      font-size: 4vw;
-    }
 
-    h2 {
-      color: blueviolet;
-      font-size: 2vw;
-      text-shadow: black 1px 0 10px;      
-    }
-    
-    li{
-      text-align: start;
-      ::marker{
-        padding-right: 150px;
-      }
-    }
-    .download{
-      padding-top: 50px;
-    }
-}
+  h1 {
+    color: blueviolet;
+    text-shadow: black 1px 0 10px;
+    font-size: 4vw;
+  }
 
-@media screen and (max-width: 530px){
-  .Home-contener {
-      h1{
-        font-size: 24px;
+  h2 {
+    color: blueviolet;
+    font-size: 2vw;
+    text-shadow: black 1px 0 10px;
+  }
+
+  li {
+    text-align: start;
+
+    ::marker {
+      padding-right: 150px;
+    }
+  }
+
+  .download {
+    padding-top: 50px;
+  }
+
+  .Formation {
+    ul {
+      li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo_aston,
+        .logo_oc {
+          margin-left: 55px;
+          margin-bottom: 10px;
+          width: 150px;
+          border-radius: 40px;
+          margin-right: 20px;
+        }
+
+        .logo_aston:hover,
+        .logo_oc:hover {
+          opacity: 0.8;
+          transform: scale(1.2);
+        }
       }
-  
-      h2 {
-        font-size: 18px;
-      }
-      
-      .download{
-        font-size: 18px;
-        text-align: center;
-      }
+    }
   }
 }
 
+@media screen and (max-width: 530px) {
+  .Home-contener {
+    h1 {
+      font-size: 24px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+
+    .download {
+      font-size: 18px;
+      text-align: center;
+    }
+
+    .Formation {
+      ul {
+        li {
+
+          .logo_aston,
+          .logo_oc {
+            width: 80px;
+          }
+        }
+      }
+    }
+  }
+}
