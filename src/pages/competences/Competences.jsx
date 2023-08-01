@@ -26,7 +26,7 @@ function Competences() {
 
             <ul>
               <li>
-                <img src={LogoHtml} alt="logo html" />
+              <span className='logoL'><img src={LogoHtml} alt="logo html" /></span>
                 <p>HTML</p>
                 <span>
                   <FontAwesomeIcon className="htmlstars1" icon={faStar} />
@@ -36,7 +36,7 @@ function Competences() {
               </li>
             
               <li>
-              <img src={LogoCss} alt="logo css" />
+              <span className='logoL'><img src={LogoCss} alt="logo css" /></span>
                 <p>CSS</p>
                 <span>
                   <FontAwesomeIcon className="cssstars1" icon={faStar} />
@@ -46,7 +46,7 @@ function Competences() {
               </li>
            
               <li>
-                <img src={LogoSass} alt="logo sass" />
+              <span className='logoL'><img src={LogoSass} alt="logo sass" /></span>
                 <p>SASS</p>
                 <span>
                   <FontAwesomeIcon className="sassstars1" icon={faStar} />
@@ -56,7 +56,7 @@ function Competences() {
               </li>
             
               <li>
-                <img className='js' src={LogoJs} alt="logo js" />
+              <span className='logoL'><img className='js' src={LogoJs} alt="logo js" /></span>
                 <p>Java Script</p>
                 <span>
                   <FontAwesomeIcon className="jsstars1" icon={faStar} />
@@ -66,7 +66,7 @@ function Competences() {
               </li>
             
               <li>
-                <img src={LogoReactJs} alt="logo react" />
+              <span className='logoL'><img src={LogoReactJs} alt="logo react" /></span>
                 <p>React</p>
                 <span>
                   <FontAwesomeIcon className="reactstars1" icon={faStar} />
@@ -76,7 +76,7 @@ function Competences() {
               </li>
             
               <li>
-                <img src={LogoAngular} alt="logo angular" />
+              <span className='logoL'><img src={LogoAngular} alt="logo angular" /></span>
                 <p>Angular</p>
                 <span>
                   <FontAwesomeIcon className="angularstars1" icon={faStar} />
@@ -86,7 +86,7 @@ function Competences() {
               </li>
             
               <li>
-                <img src={LogoTypeScript} alt="logo ts" />
+              <span className='logoL'><img src={LogoTypeScript} alt="logo ts" /></span>
                 <p>TypeScript</p>
                 <span>
                   <FontAwesomeIcon className="tsstars1" icon={faStar} />
@@ -96,7 +96,7 @@ function Competences() {
               </li>
             
               <li>
-                <img src={LogoJquery} alt="logo jquery" />
+              <span className='logoL'><img src={LogoJquery} alt="logo jquery" /></span>
                 <p>Jquery</p>
                 <span>
                   <FontAwesomeIcon className="jquerystars1" icon={faStar} />
@@ -114,7 +114,7 @@ function Competences() {
            
             <ul>
               <li>
-                <img src={LogoNodeJs} alt="logo node" />
+              <span className='logoL'><img src={LogoNodeJs} alt="logo node" /></span>
                 <p>Node.Js</p>
                 <span>
                   <FontAwesomeIcon className="nodestars1" icon={faStar} />
@@ -124,7 +124,7 @@ function Competences() {
               </li>
             
               <li>
-                <img src={LogoMySQL} alt="logo mysql" />
+                <span className='logoL'><img src={LogoMySQL} alt="logo mysql" /></span>
                 <p>MySQL</p>
                 <span>
                   <FontAwesomeIcon className="mysqlstars1" icon={faStar} />
@@ -134,7 +134,7 @@ function Competences() {
               </li>
             
               <li>
-                <img className='mongodb' src={LogoMongoDB} alt="logo mongodb" />
+              <span className='logoL'><img className='mongodb' src={LogoMongoDB} alt="logo mongodb" /></span>
                 <p>Mongo Db</p>
                 <span>
                   <FontAwesomeIcon className="mongodbstars1" icon={faStar} />
