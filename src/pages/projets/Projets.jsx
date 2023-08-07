@@ -3,6 +3,7 @@ import Nina from '../../asset/images/projets/nina.webp';
 import Booki from '../../asset/images/projets/booki.webp';
 import Grimoire from '../../asset/images/projets/grimoire.webp';
 import ArchiWebos from '../../asset/images/projets/archiwebos.webp';
+import Payet from '../../asset/images/projets/payet.webp';
 import Collapse from '../../components/collapse/Collapse';
 import './Projets.scss';
 function Projets() {
@@ -79,10 +80,10 @@ function Projets() {
                   {<p>Ce projet demandait de créer entièrement un Backend (serveur + BDD) j'ai pu apprendre l'utilisation de mongo db, construire une api , utiliser node et express ainsi que des midleware comme sharp et multer entre autre</p>}
                 </ul>}/>
             </li>
-            <li className='Payet_carrelage'>
+            <li className='LiPayet'>
               <h3>PAYET-Carrelage</h3>
               <a href="https://payet-carrelage.netlify.app/">
-              <img className="imgPayet" src={Grimoire} alt="Site de PAYET-Carrelage" />
+              <img className="imgPayet" src={Payet} alt="Site de PAYET-Carrelage" />
               </a>
               <Collapse title="Description du site de PAYET-Carrelage" content=
                 {<ul>
