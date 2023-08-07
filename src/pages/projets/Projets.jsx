@@ -79,6 +79,20 @@ function Projets() {
                   {<p>Ce projet demandait de créer entièrement un Backend (serveur + BDD) j'ai pu apprendre l'utilisation de mongo db, construire une api , utiliser node et express ainsi que des midleware comme sharp et multer entre autre</p>}
                 </ul>}/>
             </li>
+            <li className='Payet_carrelage'>
+              <h3>PAYET-Carrelage</h3>
+              <a href="https://payet-carrelage.netlify.app/">
+              <img className="imgPayet" src={Grimoire} alt="Site de PAYET-Carrelage" />
+              </a>
+              <Collapse title="Description du site de PAYET-Carrelage" content=
+                {<ul>
+                  {<li>Utilisation de React.</li>}
+                  {<li>Développer des éléments de l'interface d'un site web grâce à des composants React.</li>}
+                  {<li>Configurer la navigation entre les pages de l'application avec React Router.</li>}
+                  {<li>Développer une interface web avec Sass.</li>}
+                  {<p>La conception de ce site me permet de tester des nouveaux components, je prévois d'y implémenter une automatisation pour l'ajout d'images dans la galerie</p>}
+                </ul>}/>
+            </li>
           </ul>
       </div>
     </div>
